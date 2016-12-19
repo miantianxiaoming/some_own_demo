@@ -13,6 +13,7 @@
                     //当图片的offsettop小于scrolltop+clientHeight的和时，关闭节流阀，执行循环给每张图片设置上新的地址
                     if(imgDom[0].offsetTop < sTop+cliiHright){
                         flag = false;
+                      //利用ajax技术请求图片数据并渲染
                         callback();
                     }
                 }
