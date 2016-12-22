@@ -1,0 +1,184 @@
+#riqi{
+    width: 994px;
+    height: 22px;
+    line-height: 22px;
+    font-family: "BebasNeueRegular";
+    font-size: 14px;
+    margin: 0 auto;
+    font-weight: bold;
+    color: #545454;
+}
+#riqi ul li{
+    float: left;
+    width: 331px;
+}
+#zhou{
+    width: 994px;
+    height: 25px;
+    margin: 0 auto;
+}
+#zhou a{
+    width: 46px;
+    height: 25px;
+    float: left;
+}
+#zhou span{
+    display: block;
+    width: 1px;
+    height: 10px;
+    background: #545454;
+    float: left;
+}
+#zhou div{
+    width: 898px;
+    height: 22px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+#zhou em:hover{
+    background: url("../imgs/zhoudianhover.png") no-repeat;
+    cursor: pointer;
+}
+#zhou div ul{
+    width: 1796px;
+    height: 12px;
+    position: absolute;
+    left: 0;
+}
+#zhou div ul li{
+    width: 898px;
+    height: 12px;
+    border-bottom:2px solid #e6e6e6 ;
+    float: left;
+    position: relative;
+}
+#zhou div ul li em{
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 8px;
+    background: url("../imgs/noactivezhou.png") no-repeat center;
+}
+#piczhouid{
+    width: 100%;
+    height: 440px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+#piczhou{
+    width: 8520px;
+    height: 386px;
+    left: 400px;
+    top: 46px;
+    position: absolute;
+}
+#piczhou li{
+    width: 210px;
+    height: 386px;
+    float: left;
+    background: url("../imgs/piclibeijing.png");
+    margin: 0 2px;
+}
+.divpic{
+    width: 200px;
+    height: 380px;
+    position: relative;
+    margin-left: 7px;
+    margin-top: 2px;
+    overflow: hidden;
+}
+.divpic img{
+    position: absolute;
+    width: 260px;
+    top: -17%;
+    left: -16%;
+}
+.divpic .divpic1{
+    position: absolute;
+    width: 0;
+    height:0;
+    top: 0;
+    background: #010101;
+    opacity: 0.5;
+    filter: alpha(opacity = 50);
+    color: #fff;
+    font-size: 24px;
+    line-height: 125px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+}
+.divpic .divpic2{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    bottom: 0;
+    background: #fff;
+    border-top:5px solid #1a86ac ;
+}
+.divpic2 h2{
+    text-align: center;
+    line-height: 52px;
+    color: #353535;
+}
+.divpic2 p{
+    width: 146px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 16px;
+    font-size: 12px;
+    color: #595454;
+}
+.divpic2 button{
+    width: 94px;
+    height: 25px;
+    list-style: none;
+    font-size: 14px;
+    float: right;
+    background: #a6a6a3;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 28px;
+}
+.divpic3{
+    width: 496px;
+    height: 386px;
+    position: relative;
+}
+.divpic3 input{
+    position: absolute;
+    list-style: none;
+    width: 56px;
+    height: 25px;
+    border: none;
+    background: #040404;
+    color: #fff;
+    outline: none;
+    font-size: 16px;
+    top: 14px;
+    right: 12px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+#zhouPrevOrNext{
+    width: 400px;
+    height: 50px;
+    margin: 26px auto 0;
+    position: relative;
+}
+#zhouPrevOrNext a{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+}
+#piczhouid button:hover{
+    background-color:#1a86ac ;
+}
+.divpic3 input:hover{
+    background-color: #1a86ac;
+}
